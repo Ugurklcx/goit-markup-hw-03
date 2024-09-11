@@ -160,11 +160,12 @@ body {
   gap: 24px;
 }
 .section2-ul li {
+  width: calc((100% - 72px) / 4);
   width: 264px;
   height: 104px;
   display: inline-block;
 }
-.section2-ul h2 {
+.section2-ul h3 {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -172,7 +173,7 @@ body {
   letter-spacing: 2%;
   margin-bottom: 8px;
 }
-.section2-ul p {
+.section2-ul h2 {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
