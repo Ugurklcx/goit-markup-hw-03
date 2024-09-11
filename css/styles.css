@@ -107,7 +107,7 @@ body {
 
 /* SECTION 1 */
 
-.section-1 {
+.section1 {
   padding: 188px 0;
   background-color: #2e2f42;
   height: 600px;
@@ -115,17 +115,16 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 }
-.section-1-h1 {
+.section1-h1 {
   color: white;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   max-width: 496px;
+  margin: 0 auto;
 }
-.section-1-button {
+.section1-button {
   display: block;
   margin: 0 auto;
   cursor: pointer;
@@ -200,6 +199,10 @@ body {
   justify-content: center;
   gap: 24px;
 }
+.section3-ul-items
+{
+  width: calc((100% - 72px) / 4);
+}
 .section3-ul li {
   width: 264px;
   height: 380px;
@@ -215,19 +218,22 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 32px;
+  padding: 32px 0;
 }
-.section3-ul h2 {
+.section3-ul h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 2%;
+  margin-bottom: 8px;
+  text-align: center;
 }
-.section3-ul h4 {
+.section3-ul p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
+  text-align: center;
 }
 
 /* SECTION 4 */
