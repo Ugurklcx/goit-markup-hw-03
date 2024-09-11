@@ -39,6 +39,7 @@ body {
 .header div
 {
   display: flex;
+  align-items: center;
 }
 .header-website-link {
   text-decoration: none;
