@@ -173,7 +173,7 @@ body {
   letter-spacing: 2%;
   margin-bottom: 8px;
 }
-.section2-ul h2 {
+.visually-hidden {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
