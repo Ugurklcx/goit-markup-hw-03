@@ -58,16 +58,16 @@ body {
   font-weight: 700;
   font-family: raleway;
 }
-.header-link-nav {
+.nav {
   display: flex;
   align-items: center;
 }
-.header-link-nav a {
+.nav a {
   text-decoration: none;
   color: #2e2f42;
   margin-right: 76px;
 }
-.header-link-nav ul {
+.nav ul {
   display: flex;
   gap: 40px;
   list-style: none;
@@ -76,7 +76,7 @@ body {
   line-height: 24px;
   letter-spacing: 2%;
 }
-.header-link-nav a:hover {
+.nav a:hover {
   text-decoration: none;
   color: #404bbf;
 }
