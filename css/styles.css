@@ -85,7 +85,6 @@ body {
 .nav-link {
   text-decoration: none;
   color: #2e2f42;
-
   padding: 24px 0;
 }
 .nav-list-item :hover {
@@ -103,7 +102,10 @@ body {
   gap: 40px;
   font-style: normal;
 }
-.contacts-list a {
+.list-item {
+  display: inline-block;
+}
+.contacts-link {
   text-decoration: none;
   list-style: none;
   font-weight: 400;
@@ -112,11 +114,8 @@ body {
   letter-spacing: 2%;
   color: #434455;
 }
-.contacts-list a:hover {
+.contacts-link a:hover {
   color: #404bbf;
-}
-.contacts-list li {
-  display: inline-block;
 }
 
 /* SECTION 1 */
