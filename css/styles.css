@@ -46,6 +46,10 @@ body {
   align-items: center;
   flex-grow: 1;
 }
+.header-nav a
+{
+  margin-right: 76px;
+}
 .logo {
   padding: 24px 0;
   text-decoration: none;
@@ -84,7 +88,6 @@ body {
   text-decoration: none;
   color: #2e2f42;
   padding: 24px 0;
-  margin-right: 76px;
 }
 .nav-link:hover {
   text-decoration: none;
