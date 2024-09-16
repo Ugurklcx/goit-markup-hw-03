@@ -43,9 +43,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 .header-website-link {
   text-decoration: none;
