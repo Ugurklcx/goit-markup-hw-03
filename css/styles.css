@@ -75,13 +75,17 @@ body {
   letter-spacing: 2%;
   flex-grow: 2;
 }
+.nav-list a
+{
+  margin-right: 76px;
+}
 .list-item {
   padding: 24px 0;
 }
 .nav-link {
   text-decoration: none;
   color: #2e2f42;
-  margin-right: 76px;
+
   padding: 24px 0;
 }
 .nav-list-item :hover {
@@ -91,14 +95,12 @@ body {
 
 /*Address*/
 
-.header-address-ul {
-  font-style: normal;
-}
-.header-address-ul {
+.contacts-list {
   display: flex;
   gap: 40px;
+  font-style: normal;
 }
-.header-address-ul a {
+.contacts-list a {
   text-decoration: none;
   list-style: none;
   font-weight: 400;
@@ -107,10 +109,10 @@ body {
   letter-spacing: 2%;
   color: #434455;
 }
-.header-address-ul a:hover {
+.contacts-list a:hover {
   color: #404bbf;
 }
-.header-address-ul li {
+.contacts-list li {
   display: inline-block;
 }
 
