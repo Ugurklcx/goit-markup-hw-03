@@ -38,7 +38,7 @@ body {
 .logo {
   flex-grow: 1;
 }
-#container_header {
+.name-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -61,17 +61,18 @@ body {
   font-weight: 700;
   font-family: raleway;
 }
-.header_nav {
+.nav-list{
   display: flex;
   align-items: center;
   flex-grow: 2;
 }
-.header_nav a {
+.nav-list-item{
   text-decoration: none;
   color: #2e2f42;
   margin-right: 76px;
+  padding: 24px 0;
 }
-.header_nav ul {
+.nav-list-ul {
   display: flex;
   gap: 40px;
   list-style: none;
@@ -80,13 +81,13 @@ body {
   line-height: 24px;
   letter-spacing: 2%;
 }
-.header_nav a:hover {
+.nav-list-item :hover {
   text-decoration: none;
   color: #404bbf;
 }
-.header-link-items {
-  padding: 24px 0;
-}
+
+    /*Address*/
+
 .header-address-ul
 {
   font-style: normal;
