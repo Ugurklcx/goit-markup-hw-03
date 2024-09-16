@@ -322,6 +322,10 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.content-div
+{
+  margin-bottom: 8px;
+}
 
 .content-four-items-header {
   color: #2e2f42;
