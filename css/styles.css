@@ -68,13 +68,14 @@ body {
   flex-grow: 1;
 }
 .nav-list {
+  display: flex;
   gap: 40px;
   list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  flex-grow: 4;
+  flex-grow: 1;
 }
 .list-item {
   padding: 24px 0;
@@ -229,9 +230,6 @@ body {
   gap: 24px;
 }
 .content-three-items {
-  width: calc((100% - 72px) / 4);
-}
-.content-three li {
   width: 264px;
   height: 380px;
   background-color: #ffffff;
