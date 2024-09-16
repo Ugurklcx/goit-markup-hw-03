@@ -41,6 +41,11 @@ body {
   flex-direction: row;
   justify-content: center;
 }
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
 .logo {
   padding: 24px 0;
   text-decoration: none;
@@ -62,15 +67,6 @@ body {
   font-weight: 700;
   font-family: raleway;
 }
-.header-nav {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-}
-.header-nav a
-{
-  margin-right: 76px;
-}
 .nav-list {
   display: flex;
   gap: 40px;
@@ -88,8 +84,9 @@ body {
   text-decoration: none;
   color: #2e2f42;
   padding: 24px 0;
+  margin-right: 76px;
 }
-.nav-list-item :hover {
+.nav-link:hover {
   text-decoration: none;
   color: #404bbf;
 }
