@@ -76,8 +76,7 @@ body {
   letter-spacing: 2%;
   flex-grow: 2;
 }
-.nav-list a
-{
+.nav-list a {
   margin-right: 76px;
 }
 .list-item {
@@ -94,10 +93,9 @@ body {
 }
 
 /*Address*/
-.contacts
- {
-
- }
+.contacts {
+  display: flex;
+}
 .contacts-list {
   display: flex;
   gap: 40px;
@@ -121,8 +119,7 @@ body {
 
 /* SECTION 1 */
 
-.content-one-container
-{
+.content-one-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -233,7 +230,7 @@ body {
   box-shadow: 0px 1px 1px 0px #2e2f4229;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
-.content-three-div{
+.content-three-div {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -269,7 +266,8 @@ body {
   text-align: center;
   margin-bottom: 72px;
 }
-.content-four-list-item{}
+.content-four-list-item {
+}
 .content-four-list {
   list-style: none;
   display: flex;
