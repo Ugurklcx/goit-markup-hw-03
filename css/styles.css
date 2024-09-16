@@ -277,6 +277,9 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
+.content-four-list-item
+{
+}
 .content-four-container {
   margin-bottom: 8px;
   border: 1px solid #e7e9fc;
