@@ -41,7 +41,7 @@ body {
 }
 .name-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 .header-website-link {
