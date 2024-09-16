@@ -286,11 +286,14 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
+.content-four-list div
+{
+  margin-bottom:8px;
+}
 .content-four-container {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
-  margin-bottom:8px;
 }
 .content-four-items-header {
   color: #2e2f42;
