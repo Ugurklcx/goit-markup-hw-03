@@ -94,7 +94,10 @@ body {
 }
 
 /*Address*/
+.contacts
+ {
 
+ }
 .contacts-list {
   display: flex;
   gap: 40px;
