@@ -36,16 +36,17 @@ body {
   border-bottom: 1px solid #e7e9fc;
   background-color: white;
 }
-.logo {
-  padding: 24px 0;
-}
 .name-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.header-website-link {
+.logo {
+  padding: 24px 0;
   text-decoration: none;
+  flex-grow: 1;
+}
+.header-website-link {
   color: #4d5ae5;
   font-size: 18px;
   line-height: 21px;
@@ -64,15 +65,16 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
+  flex-grow: 1;
 }
 .nav-list {
-  display: flex;
   gap: 40px;
   list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
+  flex-grow: 4;
 }
 .list-item {
   padding: 24px 0;
@@ -90,12 +92,12 @@ body {
 
 /*Address*/
 .contacts {
-  flex-grow: 1;
 }
 .contacts-list {
   display: flex;
   gap: 40px;
   font-style: normal;
+  flex-grow: 1;
 }
 .list-item {
   display: inline-block;
