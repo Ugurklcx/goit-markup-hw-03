@@ -38,11 +38,10 @@ body {
 }
 .logo {
   padding: 24px 0;
-  flex-grow: 1;
 }
 .name-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
 .header-website-link {
@@ -74,10 +73,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  flex-grow: 2;
-}
-.nav-list a {
-  margin-right: 76px;
 }
 .list-item {
   padding: 24px 0;
@@ -86,6 +81,7 @@ body {
   text-decoration: none;
   color: #2e2f42;
   padding: 24px 0;
+  margin-right: 76px;
 }
 .nav-list-item :hover {
   text-decoration: none;
@@ -94,7 +90,7 @@ body {
 
 /*Address*/
 .contacts {
-  display: flex;
+  flex-grow: 1;
 }
 .contacts-list {
   display: flex;
@@ -163,6 +159,19 @@ body {
 .content-two {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.visually-hidden
+{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .content-two-list {
   list-style: none;
