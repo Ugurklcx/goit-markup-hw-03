@@ -35,7 +35,6 @@ body {
 
 /* HEADER */
 .header {
-  height: 72px;
   border-bottom: 1px solid #e7e9fc;
   background-color: white;
 }
@@ -51,15 +50,10 @@ body {
   align-items: center;
   flex-grow: 1;
 }
-
-.header-nav a {
-  margin-right: 76px;
-}
-
 .logo {
   padding: 24px 0;
   text-decoration: none;
-  flex-grow: 1;
+  margin-right: 76px;
 }
 
 .header-website-link {
@@ -323,7 +317,6 @@ body {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  
 }
 
 .content-four-items-header {
