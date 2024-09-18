@@ -357,7 +357,16 @@ body {
   display: inline-block;
   margin-bottom: 16px;
 }
-
+.footer-website-link
+{
+  color: #4d5ae5;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  font-weight: 700;
+  font-family: raleway;
+  text-decoration: none;
+}
 .footer-website-link-otherhalf {
   color: #f4f4fd;
   font-size: 18px;
@@ -365,4 +374,5 @@ body {
   letter-spacing: 3%;
   font-weight: 700;
   font-family: raleway;
+  text-decoration: none;
 }
